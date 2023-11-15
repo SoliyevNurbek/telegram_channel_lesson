@@ -1,5 +1,5 @@
-from read_data import fromJson
-
+from read_data import fromJson as fj
+from datetime import datetime as dt
 def get_post_per_week(data:dict,month:int)->dict:
     """
     Return the number of posts for each week of a given month
